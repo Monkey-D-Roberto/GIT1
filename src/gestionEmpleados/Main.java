@@ -23,7 +23,6 @@ public class Main {
             System.out.println();
         }
 
-        // Demostrar el uso de polimorfismo con la evaluación del desempeño
         EvaluacionDesempeno evalDesempeno = new ImplementacionEvaluacionDesempeno(7);
         System.out.println("Evaluación del desempeño de Juan: " + evalDesempeno.evaluarDesempeno());
     }
